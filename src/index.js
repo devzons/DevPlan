@@ -30,7 +30,7 @@ const rrfProps = {
   firebase,
   config: rrfConfig,
   dispatch: store.dispatch,
-  createFirestoreInstance, // Create firestore instead of craete it in fbConfig.js
+  createFirestoreInstance, // Create firestore instead of create it in fbConfig.js
 }
 
 ReactDOM.render(
@@ -42,3 +42,4 @@ ReactDOM.render(
   document.getElementById('root'))
       
 serviceWorker.unregister();
+
